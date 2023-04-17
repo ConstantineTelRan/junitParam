@@ -11,7 +11,7 @@ import java.util.stream.Stream;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
-public class ParamText extends TestBase {
+public class ParamTest extends TestBase {
     TextBoxPage textBox;
 
     @BeforeEach
@@ -118,6 +118,7 @@ public class ParamText extends TestBase {
                 "Current Address :" + dataTextBox.getCURRENT_ADDRESS());
         assertEquals(textBox.getTextFromInfoField("permanentAddress"),
                 "Permananet Address :" + dataTextBox.getPERMANENT_ADDRESS());
+
     }
 
 
